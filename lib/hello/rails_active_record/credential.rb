@@ -8,7 +8,7 @@ module Hello
 
       # VALIDATIONS
       validates_presence_of :user, :type
-      validates_inclusion_of :type, in: %w(EmailCredential PasswordCredential)
+      # validates_inclusion_of :type, in: %w(EmailCredential PasswordCredential)
 
       # CUSTOM METHODS
 
